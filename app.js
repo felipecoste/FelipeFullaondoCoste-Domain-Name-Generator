@@ -23,7 +23,7 @@ let combinaciones = [];
     for (let a of adj) {
       for (let n of noun) {
         for (let u of exten) {
-          combinaciones.push(`${p} ${a} ${n} ${u}`);
+          combinaciones.push(`${p}${a}${n}${u}`);
         }
       }
     }
